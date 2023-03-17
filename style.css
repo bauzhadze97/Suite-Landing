@@ -11,6 +11,7 @@ body{
     font-size: 16px;
     background-color: #FAF8F6;
     font-weight: 400;
+    overflow-x: hidden;
 }
 main{
     width: 100%;
@@ -60,4 +61,30 @@ main header .lineheader{
     height: 19px;
     margin:0 53px 8px 80px;
     width: 90%;
+}
+main header .heroimage{
+    background: radial-gradient(100% 100% at 100% 100%, #A060FF 0%, #CB30E3 33.18%, #FFA84E 100%);    border-radius: 15px;
+    max-width: 343px;
+    max-height: 240px;
+    display: flex;
+    justify-content: center;
+    margin: 55px 16px 56px 16px;
+}
+main header .scores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main header .scores h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #172339;
+}
+main header .scores p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #49566D;
+    padding: 5px 0 55px 0;    
+    letter-spacing: 2.5px;
 }
